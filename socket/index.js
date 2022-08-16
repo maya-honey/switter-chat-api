@@ -1,5 +1,5 @@
 const PORT = process.env.PORT || 8800;
-const PORT_SERVER = process.env.PORT_SERVER || 3001;
+//const PORT_SERVER = process.env.PORT_SERVER || 3001;
 
 const io = require("socket.io")(PORT, {
     cors: {
@@ -10,7 +10,7 @@ const io = require("socket.io")(PORT, {
 
 
 console.log(`socket/index.js listening at Port ${PORT}`)
-console.log(`socket/index.js listening server's port is ${PORT_SERVER}`)
+//console.log(`socket/index.js listening server's port is ${PORT_SERVER}`)
 
 let activeUsers = [];
 
