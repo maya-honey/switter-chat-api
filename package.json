@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd socket && npm run start"
+    "start": "cd socket && npm run start",
+    "heroku-postbuild": "cd socket && npm install"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/maya-honey/switter-chat-api/issues"
   },
-  "homepage": "https://github.com/maya-honey/switter-chat-api#readme"
+  "homepage": "https://github.com/maya-honey/switter-chat-api#readme",
+  "engines": {
+    "node": "16.14.2"
+  }
 }
