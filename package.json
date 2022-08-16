@@ -1,0 +1,20 @@
+{
+  "name": "switter-chat-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd socket && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maya-honey/switter-chat-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maya-honey/switter-chat-api/issues"
+  },
+  "homepage": "https://github.com/maya-honey/switter-chat-api#readme"
+}
